@@ -1,3 +1,4 @@
+
 function toggleDescription(descriptionId, imageId) {
     const descriptionElement = document.getElementById(descriptionId);
     const imageElement = document.getElementById(imageId);
@@ -10,3 +11,4 @@ function toggleDescription(descriptionId, imageId) {
         imageElement.style.display = 'none'; // Hide the image
     }
 }
+
